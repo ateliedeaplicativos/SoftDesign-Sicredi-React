@@ -37,7 +37,7 @@ export default function Form(props) {
         <div className="align-card">
             <div className="formbgEd">
                 <div id="table">
-                <br></br><h2>Editar Dragon-Credi:</h2>
+                <br></br><h2>Dragon-Credi:</h2>
                 <br></br><form className="row g-3">              
         <div className="col-md-8">
             <label className="form-label">Dragon-Name:</label>
@@ -62,7 +62,7 @@ export default function Form(props) {
                     : status ? "Unexpected error!" : null }
         </div>
         <div className="col-12 d-flex justify-content-end">
-            <button type="submit" className="button cursor-pointer" id="botao" onClick={handleSubmit}>Atualizar</button>
+            <button type="submit" className="button cursor-pointer" id="botao" onClick={handleSubmit}>Salvar</button>
             <Link to={"/dragon"}><button type="submit" className="button cursor-pointer" id="botaoDanger">Voltar</button></Link>
         </div>
     </form>
