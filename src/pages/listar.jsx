@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import { getDragons, deleteDragon } from "../util/api";
+import { getDragons, deleteDragon } from "../service/api";
 import { Link } from "react-router-dom";
-import "./dragons.css"
+import "./listar.css"
 
 export default function Dragons() {
 

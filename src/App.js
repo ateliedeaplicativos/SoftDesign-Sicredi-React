@@ -3,9 +3,9 @@ import { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
 import Login from './pages/login';
-import Dragon from './pages/dragon';
-import Dragons from './pages/dragons';
-import Form from './pages/form';
+import Dragon from './pages/ver';
+import Dragons from './pages/listar';
+import Form from './pages/editar';
 import RequireAuth from './components/RequireAuth';
 
 function App() {
